@@ -1,6 +1,5 @@
-import type { FooterProps } from '../components/ui/Footer/Footer.tsx';
+import type { FooterProps } from "../components/ui/Footer/Footer.tsx";
 
 export const FooterContainer: FooterProps = {
-
-    textKey: "footer.text",
-}
+  textKey: "footer.text",
+};
