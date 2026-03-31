@@ -1,0 +1,15 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+  
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  
+    background: var(--card);
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--border);
+    box-sizing: border-box;
+  }

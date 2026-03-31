@@ -1,0 +1,25 @@
+.button_container {
+  width: 98%;
+  height: 100%;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
+.button_send {
+  background-color: #000;
+  color: #fff;
+}
+.button_registration {
+  background-color: #fff;
+  color: #000;
+}
+.button_login {
+  background-color: #fff;
+  color: #000;
+}
+.faq_button {
+  background-color: #fff;
+  color: #ffffff;
+}
