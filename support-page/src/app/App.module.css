@@ -1,0 +1,8 @@
+.app_container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 16px 40px; /* место под шапку */
+    gap: 24px;
+  }

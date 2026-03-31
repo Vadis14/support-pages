@@ -1,0 +1,34 @@
+.input_standart {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 15px 5px;
+  margin-bottom: 10px;
+}
+.input_massage {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 40px 5px;
+  margin-bottom: 10px;
+}
+
+.input_file {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.input_checkbox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  order: 1;
+}
