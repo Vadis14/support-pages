@@ -11,8 +11,11 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
+    "axios": "^1.14.0",
     "classnames": "^2.5.1",
+    "Eslint": "npm:eslint@^9.39.4",
     "i18next": "^26.0.2",
+    "prettier": "^3.8.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-hook-form": "^7.72.0",

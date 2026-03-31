@@ -1,23 +1,25 @@
-import styles from './FAQ.module.css';
-import { QuestionButton } from '../QuestionButton/QuestionButton.tsx';
-import type { QuestionButtonProps } from '../QuestionButton/QuestionButton.tsx';
-import { useTranslation } from 'react-i18next';
+import styles from "./FAQ.module.css";
+import { QuestionButton } from "../QuestionButton/QuestionButton.tsx";
+import type { QuestionButtonProps } from "../QuestionButton/QuestionButton.tsx";
 
 export interface FAQProps {
-    buttonProps: QuestionButtonProps[];
-    titleKey: string;
+  buttonProps: QuestionButtonProps[];
+  title: string;
 }
 
-export function FAQ({ buttonProps, titleKey }: FAQProps) {
-    const { t } = useTranslation();
-    return (
+export function FAQ({ buttonProps, title }: FAQProps) {
+  return (
     <div className={styles.faq_container}>
-        <h2 className={styles.faq_title}>{t(titleKey ?? '')}</h2>
-        <div className={styles.faq_content}>
-            {buttonProps.map((button) => (
-                <QuestionButton questionKey={button.questionKey} key={button.key} answerKey={button.answerKey} />
-            ))}
-        </div>
+      <h2 className={styles.faq_title}>{title}</h2>
+      <div className={styles.faq_content}>
+        {buttonProps.map((button) => (
+          <QuestionButton
+            question={button.question}
+            key={button.key}
+            answer={button.answer}
+          />
+        ))}
+      </div>
     </div>
   );
 }
